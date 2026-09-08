@@ -165,9 +165,11 @@ Driver Radio requests only permissions needed for its functions:
   lookup, and communicate with Google Play;
 - **foreground service and media playback:** to continue user-requested playback while the app is in
   the background or the screen is off;
-- **wake lock:** to support reliable playback; and
-- **notifications:** to display the ongoing playback notification and media controls on supported
-  Android versions.
+- **wake lock:** to support reliable playback.
+
+The app displays an ongoing media-session playback notification and media controls. Android exempts
+media-session notifications from the Android 13 notification runtime permission, so Driver Radio
+does not request `POST_NOTIFICATIONS`.
 
 Driver Radio does not request location, contacts, microphone, camera, phone, SMS, advertising ID, or
 broad file-storage permissions. File import and export use Android's system picker, which gives the
