@@ -3,7 +3,7 @@
 **Effective date:** 8 September 2026  
 **Last updated:** 8 September 2026
 
-Driver Radio is an Android internet-radio application developed and maintained by **Ionut, an
+Driver Radio is an Android internet-radio application developed and maintained by **Ionut Bajanica, an
 independent developer** (referred to in this policy as “I”, “me”, or “the developer”). This policy
 explains what information Driver Radio handles, why it is handled, where it goes, how long it is
 kept, and the choices available to you.
@@ -16,7 +16,7 @@ browser.
 
 ## 1. Who is responsible for Driver Radio
 
-Driver Radio is provided by Ionut as an independent developer, not by a company or radio station.
+Driver Radio is provided by Ionut Bajanica as an independent developer, not by a company or radio station.
 For privacy questions, requests, or complaints, use the public contact mechanism at:
 
 <https://github.com/ionutbajanica/driver-radio-privacy/issues>
