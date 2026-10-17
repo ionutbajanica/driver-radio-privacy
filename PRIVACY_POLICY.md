@@ -131,10 +131,10 @@ Boolean entitlement result locally. It does not send purchase information to a d
 because no such server exists. Google handles purchase information under
 [Google's Privacy Policy](https://policies.google.com/privacy) and the terms applying to Google Play.
 
-### 3.6 The Driver Radio website and browser player
+### 3.6 The Driver Radio website
 
 This policy also covers the Driver Radio website at <https://driver-radio.boiob-tech.com/>, which
-holds the landing page and a browser version of the player. The site is a set of static files: no
+holds a landing page for the Android app. The site is a set of static files: no
 developer-written code runs on a server, and the site has no accounts, analytics, advertising,
 cookies, or tracking. Its fonts, icons and scripts are all served from the site itself, so no other
 company is contacted when a page loads.
@@ -146,12 +146,14 @@ its own [privacy policy](https://www.cloudflare.com/privacypolicy/). The develop
 any Cloudflare analytics, request logging or log export for the site, and does not receive or store
 visitors' IP addresses.
 
-The browser player stores the same kinds of data listed in section 2 (favourites, recently
-selected stations, settings and the offline station cache) in your browser's own storage for this
-site (IndexedDB and local storage). It never leaves your browser. To erase it, clear this site's
-data in your browser settings. Once you browse or play, the browser player contacts the radio
-directory, station, playlist and artwork hosts exactly as described in sections 3.1 to 3.3, and
-those hosts receive your IP address in the same way.
+The landing page plays no radio, stores nothing about you, and contacts no radio directory,
+station or artwork host.
+
+Until 17 October 2026 the site also offered a browser version of the player. If you used it, the
+data it kept (favourites, recently selected stations, settings and the offline station cache) is
+still in your browser's own storage for this site (IndexedDB and local storage). It never left your
+browser and the developer cannot see or retrieve it. To erase it, clear this site's data in your
+browser settings.
 
 ## 4. Android backup and device transfer
 
