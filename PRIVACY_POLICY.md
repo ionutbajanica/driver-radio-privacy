@@ -1,7 +1,7 @@
 # Privacy Policy for Driver Radio
 
 **Effective date:** 8 September 2026  
-**Last updated:** 8 September 2026
+**Last updated:** 17 October 2026
 
 Driver Radio is an Android internet-radio application developed and maintained by **Ionut Bajanica, an
 independent developer** (referred to in this policy as “I”, “me”, or “the developer”). This policy
@@ -131,6 +131,28 @@ Boolean entitlement result locally. It does not send purchase information to a d
 because no such server exists. Google handles purchase information under
 [Google's Privacy Policy](https://policies.google.com/privacy) and the terms applying to Google Play.
 
+### 3.6 The Driver Radio website and browser player
+
+This policy also covers the Driver Radio website at <https://driver-radio.boiob-tech.com/>, which
+holds the landing page and a browser version of the player. The site is a set of static files: no
+developer-written code runs on a server, and the site has no accounts, analytics, advertising,
+cookies, or tracking. Its fonts, icons and scripts are all served from the site itself, so no other
+company is contacted when a page loads.
+
+The site is hosted by **Cloudflare, Inc.** Like any web host, Cloudflare necessarily receives your IP
+address and ordinary request information (such as the page requested, browser User-Agent and time)
+in order to deliver the site and protect it from abuse. Cloudflare processes that information under
+its own [privacy policy](https://www.cloudflare.com/privacypolicy/). The developer has not enabled
+any Cloudflare analytics, request logging or log export for the site, and does not receive or store
+visitors' IP addresses.
+
+The browser player stores the same kinds of data listed in section 2 (favourites, recently
+selected stations, settings and the offline station cache) in your browser's own storage for this
+site (IndexedDB and local storage). It never leaves your browser. To erase it, clear this site's
+data in your browser settings. Once you browse or play, the browser player contacts the radio
+directory, station, playlist and artwork hosts exactly as described in sections 3.1 to 3.3, and
+those hosts receive your IP address in the same way.
+
 ## 4. Android backup and device transfer
 
 Driver Radio allows eligible on-device user data—principally favourites, favourite-list names,
@@ -223,10 +245,10 @@ device manufacturer.
 
 ### Data controlled by third parties
 
-Directory mirrors, station/playlist/artwork hosts, Google, Apple, Shazam, YouTube, GitHub, and other
-apps or websites may retain request or account information under their own policies. The Driver
-Radio developer cannot access or delete information held independently by those services. Contact
-the relevant provider if you wish to exercise rights over its records.
+Directory mirrors, station/playlist/artwork hosts, Cloudflare (the website host), Google, Apple,
+Shazam, YouTube, GitHub, and other apps or websites may retain request or account information under
+their own policies. The Driver Radio developer cannot access or delete information held
+independently by those services. Contact the relevant provider if you wish to exercise rights over its records.
 
 ## 10. Security
 
@@ -241,9 +263,9 @@ and avoid adding custom stations you do not trust.
 
 ## 11. International data transfers
 
-The radio directory mirrors, station hosts, artwork hosts, Google, Apple, Shazam, YouTube, GitHub,
-and other services you choose may operate in countries outside your own. Requests may therefore be
-processed internationally under those providers' terms and safeguards. The developer does not
+The radio directory mirrors, station hosts, artwork hosts, Cloudflare, Google, Apple, Shazam, YouTube,
+GitHub, and other services you choose may operate in countries outside your own. Requests may
+therefore be processed internationally under those providers' terms and safeguards. The developer does not
 operate an intermediary server or select the physical location of community station and artwork
 hosts.
 
