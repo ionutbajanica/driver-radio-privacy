@@ -136,8 +136,11 @@ because no such server exists. Google handles purchase information under
 This policy also covers the Driver Radio website at <https://driver-radio.boiob-tech.com/>, which
 holds a landing page for the Android app. The site is a set of static files: no
 developer-written code runs on a server, and the site has no accounts, analytics, advertising,
-cookies, or tracking. Its fonts, icons and scripts are all served from the site itself, so no other
-company is contacted when a page loads.
+cookies, or tracking. Its fonts, icons and scripts are all served from the site itself. The one
+exception is the small “Built by BOIOB Tech” badge in the footer: an image loaded from
+<https://boiob-tech.com/>, the developers' company website, which is also hosted by Cloudflare and
+likewise has no analytics, request logging, cookies or tracking. The image is requested without
+telling that site which page it appeared on. No other company is contacted when a page loads.
 
 The site is hosted by **Cloudflare, Inc.** Like any web host, Cloudflare necessarily receives your IP
 address and ordinary request information (such as the page requested, browser User-Agent and time)
